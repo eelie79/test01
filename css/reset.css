@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
+/* 웹폰트 CSS */
+@font-face{ font-family: 'Noto Sans KR', sans-serif; }
+
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, strong, b, dl, dt, dd, ol, ul, li, article, aside, footer, header, menu, nav, section { margin:0; padding:0; border:0; font-size:100%;
+vertical-align:baseline; background:transparent; }
+
+body {
+	font-family:'Noto Sans KR', '맑은고딕', HelveticaNeue, Sans-serif,Helvetica; line-height:1;
+}
+
+nav ul, li { list-style: none; }
+a { margin:0; padding:0; text-decoration:none; font-size:100%; vertical-align:baseline; background:transparent; }
+img { vertical-align:top; }
+div, section { box-sizing: border-box; }
+
+.clear::after { content: ""; clear: both; display: block; }
+
+
+
+
+
+
+
